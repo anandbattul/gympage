@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background: url("https://images.unsplash.com/photo-1546483875-ad9014c88eba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1382&q=80");
+    background-size: 100%;
+}
+#mb{
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.left {
+    /* border: 2px solid rgb(233, 119, 119); */
+    display: inline-block;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+
+.left img {
+    width: 111px;
+    filter: brightness(100%);
+    filter: drop-shadow(10%);
+    filter: contrast(1000%);
+}
+.left img:hover{
+    filter: invert(100%);
+    width: 115px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    width: 51%;
+    margin: 20px 20%;
+    display: block;
+    top: 20px;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+    border: 5px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+}
+.navbar li{
+    background-color: #ffffff67;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 5px 14px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    color: red;
+    font: 19px sans-serif;
+    /* background-color:gold; */
+}
+
+.container {
+    /* border: 2px solid green; */
+    background-color: #ffffff67;
+    border-radius: 32px;
+    margin: 112px 132px;
+    padding: 77px;
+    width: 33%;
+    /* border-radius: 2px;  */
+}
+.form-group input{
+     font-family: 'Roboto', sans-serif ;
+     text-align: center;
+     display: block;
+     width: 399px;
+     padding: 1px;
+     border: 2px solid black;
+     margin: 11px auto;
+     font-size: 24px;
+     border-radius: 7px;
+}
+.container h1{
+    text-align: center;
+    color: black;
+    font-size :33px;
+    background-color: grey;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
